@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery 3.7.1</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <section id="event_methods">
+        <div class="container">
+            <h3>Event Methods</h3>
+            <input type="text" method="event">
+            <span></span><br><br>
+
+            <button class="multiple_methods">Multiple Methods</button> <br><br>
+
+            <div class="inside"><button>Inside Button</button></div><br><br>
+
+            <p class="one">Click me and I'll work only <b>ONE</b> time</p><br><br>
+
+            <button class="proxy_button">Click proxy</button>
+            <span class="proxy_span"></span><br><br>
+
+            <p class="window_methods">Window Methods (Resize, Scroll)</p>
+            <span class="window_width">Width: </span> <br>
+            <span class="window_height">Height: </span><br><br>
+
+            <input type="text" class="trigger_input" value="Trigger Input">
+            <button class="trigger_button">Select input value</button><br><br>
+
+            <p class="hover">Hover method is combination of MouseEnter and MouseLeave</p><br><br>
+
+            <p>ForEach method</p>
+            <span class="foreach_span">Hello</span>
+            <span class="foreach_span">World</span>
+            <span class="foreach_span">How</span>
+            <span class="foreach_span">Are</span>
+            <span class="foreach_span">You</span>
+            <span class="foreach_span_indicator"></span><br><br>
+
+            <input type="text" class="type_which">
+            <span class="type_which_indicator"></span><br><br>
+
+            <p class="hide_show">This is Hide&Show Paragraph</p>
+            <button class="hide">Hide</button>
+            <button class="show">Show</button>
+            <button class="toggle">Toggle</button><br><br>
+
+            <p class="callback">This is Callback Function</p>
+            <button class="callback_button">CallBack</button><br><br>
+
+            <div id="slide_button">Click to Slide</div>
+            <div id="slide_stop_button">Stop</div>
+            <div id="slide_panel">Here is Slide Panel</div><br><br>
+
+            <button class="animation_button" type="button">Click to Animate</button>
+            <button class="animation_stop_button" type="button">Stop</button><br>
+            <div class="animation_box">Animation</div><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+            <p class="text_html">This text indicates whether <strong>TEXT</strong> or <strong>HTML</strong></p>
+            <form action="" class="form_val"><input type="text"><input type="text" class="paste_val_input"></form>
+            <button type="button" class="show_text">Show Text</button>
+            <button type="button" class="show_html">Show HTML</button>
+            <button type="button" class="show_val">Show Val</button>
+            <button type="button" class="paste_val">Paste Val</button>
+            <span class="show_text_html"></span><br><br>
+
+
+            <button type="button" class="show_attribute">Show attribute</button>
+            <button type="button" class="delete_attribute">Delete attribute</button>
+            <a class="attribute"
+                href="https://www.youtube.com/watch?v=ODw-uXqTtoQ&list=PLY20HpFruiK1tt11fFZdWgSqsFd5Irhsl&index=15"
+                target="_self">Attribute</a>
+            <span class="display_attribute"></span><br><br>
+
+            <p class="callback_p">This Paragraph element and will <b><i>refresh</i></b> <u>by Callback Funcitons</u></p>
+            <button class="callback_button">Refresh</button><br><br>
+
+            <button type="button" class="change_attribute_button">Change Attribute</button>
+            <a href="#" class="change_attribute" title="This anchor tags Title will change">Anchor
+                Tag</a><br><br><br><br>
+
+
+            <h3>Adding Elements</h3>
+            <p class="added_p">This is normal paragraph</p><br>
+            <button class="append_button">Append text</button>
+            <button class="appendTo_button">AppendTo text</button>
+            <button class="prepend_button">Prepend text</button>
+            <button class="after_button">After text</button>
+            <button class="before_button">Before text</button>
+            <button class="clone_after_button">Clone After text</button><br><br><br>
+
+
+            <h3>Removing Elements</h3>
+            <p class="removed_p">This is normal paragraph</p><br>
+            <button class="remove_button">Remove text</button>
+            <button class="empty_button">Empty text</button><br><br><br>
+
+
+            <div class="css_classes">
+                <h3>Playing with CSS Classes</h3>
+                <button class="add_class_button">Add Class</button>
+                <button class="remove_class_button">Remove Class</button>
+                <button class="toggle_class_button">Toggle Class</button>
+                <button class="has_class_button">Hass Class</button>
+                <button class="ternary_class_button">Ternary Class</button>
+            </div><br><br><br>
+
+
+            <div class="width_and_height">width:500<br>height:200<br>padding:10 14<br>margin:6 8<br>border:5</div>
+            <span class="width_and_height_text"></span><br>
+            <button class="width_and_height_button">Show measures</button><br><br>
+
+            <div class="prop_div"></div>
+            <button class="prop_button" title="This is Button for Properties">Prop</button><br><br>
+
+            <div class="replace">
+                <p>Hello World</p>
+                <p>Hello World</p>
+                <button class="replace_all">Replace All</button>
+                <button class="replace_with">Replace With</button>
+            </div><br><br>
+
+            <div class="scroll">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit odit, blanditiis
+                accusantium molestias numquam, ab vel, porro sed nemo reiciendis exercitationem excepturi alias
+                architecto nihil tempore eveniet deleniti libero. Et? Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Deserunt voluptates at aut
+                nesciuntullamnisiremdolorcommoditempornesciuntullamnisiremdolorcommoditemporaa quas. Nostrum placeat
+                voluptatum quia saepe nemo magnam ipsam debitis dolores? Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit. Sit odit, blanditiis
+                accusantium molestias numquam, ab vel, porro sed nemo reiciendis exercitationem excepturi alias
+                architecto nihil tempore eveniet deleniti libero. Et? Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Deserunt voluptates at aut
+                nesciuntullamnisiremdolorcommoditempornesciuntullamnisiremdolorcommoditemporaa quas. Nostrum placeat
+                voluptatum quia saepe nemo magnam ipsam debitis dolores Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit. Sit odit, blanditiis
+                accusantium molestias numquam, ab vel, porro sed nemo reiciendis exercitationem excepturi alias
+                architecto nihil tempore eveniet deleniti libero. Et? Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Deserunt voluptates at aut
+                nesciuntullamnisiremdolorcommoditempornesciuntullamnisiremdolorcommoditemporaa quas. Nostrum placeat
+                voluptatum quia saepe nemo magnam ipsam debitis dolores</div>
+            <button class="scroll_button">Scroll Measures</button><br>
+            <span class="scroll_measure"></span><br><br>
+
+
+            <div class="wrap">
+                <div class="wrap_inner">
+                    <div class="wrap_inner_inner">
+                        <p class="wrap_p">This is Wrap text</p>
+                    </div>
+                </div>
+            </div>
+            <button class="unwrap_button">Unwrap</button>
+            <button class="wrap_button">Wrap</button><br><br>
+
+
+            <div class="traversing">
+                <h2>Traversing</h2>
+                <div class="t_list">
+                    <ul class="t_ul">
+                        <li class="t_li">
+                            <a href="#" class="t_a">
+                                <button class="t_button">Anchestor to Console</button>
+                            </a>
+                        </li>
+                    </ul>
+                </div><br>
+
+                <div class="t_descendants">Descendants to Console
+                    <ul>
+                        <li>
+                            <a href="">
+                                <p></p>
+                            </a>
+                        </li>
+                    </ul>
+                </div><br>
+
+                <div class="t_siblings">
+                    <h1></h1>
+                    <h2></h2>
+                    <h3></h3>
+                    <h4></h4>
+                    <h5></h5>
+                    <h6></h6>
+                    <button class="t_siblings_button">Siblings to Console</button>
+                    <p></p>
+                    <ul></ul>
+                    <li></li>
+                    <article></article>
+                    <a href=""></a>
+                    <img src="" alt="">
+                    <span></span>
+                </div><br>
+
+                <div class="t_filtering">
+                    <div style="padding: 20px; border: 3px solid rebeccapurple;">
+                        <p>First Div First Paragraph</p>
+                        <p>First Div Second Paragraph</p>
+                        <p>First Div Third Paragraph</p>
+                        <p>First Div Last Paragraph</p>
+                    </div><br>
+                    <div style="padding: 20px; border: 3px solid rebeccapurple;">
+                        <p>Second Div <span>First</span> Paragraph</p>
+                        <p>Second Div Second Paragraph</p>
+                        <p>Second Div Third Paragraph</p>
+                        <p>Second Div Last Paragraph</p>
+                    </div><br>
+                    <div style="padding: 20px; border: 3px solid rebeccapurple;" class="filter_className">
+                        <p>Third Div First Paragraph</p>
+                        <p>Third Div Second Paragraph</p>
+                        <p>Third Div Third Paragraph</p>
+                        <p>Third Div Last Paragraph</p>
+                    </div><br>
+                    <div style="padding: 20px; border: 3px solid rebeccapurple;" id="filter_className">
+                        <p>Forth Div First Paragraph</p>
+                        <p>Forth Div Second Paragraph</p>
+                        <p>Forth Div Third Paragraph</p>
+                        <p>Forth Div Last Paragraph</p>
+                    </div><br>
+                    <div style="padding: 20px; border: 3px solid rebeccapurple;">
+                        <p>Last Div First Paragraph</p>
+                        <p>Last Div Second Paragraph</p>
+                        <p>Last Div Third Paragraph</p>
+                        <p>Last Div Last Paragraph</p>
+                    </div><br>
+                </div><br><br>
+
+
+                <div class="offsetParent" style="background: pink; height: 300px; position: relative;">
+                    <div class="inner_offsetParent" style="background: limegreen; position: absolute; top: 50px; left: 20px; width: 70%; height: 80%;">
+                        <div class="inner_inner_offsetParent" style="background: yellow; margin-top: 50px;">
+                            <p>Welcome to Baku COP29</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="offset_button">Offset Button</button><br><br>
+
+                <input type="text" class="filterInput" placeholder="Find whateve you want">
+                <div class="filterDiv">
+                    <h4>HyperText Markup Language</h4>
+                    <h5>Cascading Styling Sheet</h5>
+                    <h6>JavaScript</h6>
+                    <p>Tailwind CSS</p>
+                    <span>Bootstrap</span>
+                    <a href="#">React JS</a>
+                </div>
+            </div><br><br>
+
+
+            <div id="data"></div>
+            <button class="add_data">Insert Data</button>
+            <button class="remove_data">Remove Data</button>
+            <button class="get_data">Get Data</button><br>
+        
+
+            <div class="noConflict_text"></div>
+            <button class="noConflict">noConflict</button><br><br>
+
+
+            <h1>Create Element with Jquery</h1>
+            <div class="createElement"></div>
+            <button class="createElement_button">Create Element</button>
+        </div>
+    </section>
+
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

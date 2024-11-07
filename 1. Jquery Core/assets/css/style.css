@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+input {
+    padding: 5px 10px;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.foreach_span {
+    display: block;
+    padding: 5px;
+    background: lime;
+    margin-bottom: 4px;
+}
+
+#slide_button,
+#slide_stop_button,
+#slide_panel {
+    padding: 10px;
+    text-align: center;
+    background-color: deepskyblue;
+    border: 3px solid yellow;
+}
+
+#slide_panel {
+    height: 200px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.animation_box {
+    width: 200px;
+    height: 200px;
+    background: red;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    /* Animation etmek ucun mutleq sekilde hemin elementie position:absolute verilmelidir */
+}
+
+.removed_p {
+    background: deepskyblue;
+    color: white;
+    font: 600 25px/25px "Poppins", sans-serif;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.red {
+    background-color: red;
+}
+
+.width_and_height {
+    width: 500px;
+    height: 200px;
+    padding: 10px 14px;
+    margin: 6px 8px;
+    border: 5px solid red;
+    background: royalblue;
+    position: relative;
+    left: 52px;
+    top: 10px;
+}
+
+.scroll {
+    border: 1px solid black;
+    width: 200px;
+    height: 150px;
+    overflow: auto;
+}
+
+.wrap {
+    padding: 30px;
+    background: deepskyblue;
+    color: #fff;
+    font: 600 24px/26px "Poppins", sans-serif;
+}
+
+.wrap .wrap_inner {
+    padding: 30px;
+    background: yellow;
+    color: #fff;
+    font: 600 24px/26px "Poppins", sans-serif;
+}
+
+.wrap .wrap_inner .wrap_inner_inner {
+    padding: 30px;
+    background: red;
+    color: #fff;
+    font: 600 24px/26px "Poppins", sans-serif;
+}
+
+.wrap_inner_inner_inner {
+    padding: 30px;
+    background: lime;
+    color: #fff;
+    font: 600 24px/26px "Poppins", sans-serif;
+}
